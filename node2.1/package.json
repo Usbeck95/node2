@@ -1,0 +1,17 @@
+{
+  "name": "node2.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "checkpoint": "git add .  && git commit -F - && git push origin master ",
+    "pretest": "npm install",
+    "test": "node main"
+  },
+  "author": "carina",
+  "license": "ISC",
+  "dependencies": {
+    "http-status-codes": "^2.1.4",
+    "readline-sync": "^1.4.10"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "node2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node2.0.js",
+  "scripts": {
+    "checkpoint": "git add .  && git commit -F - && git push origin master ",
+    "pretest": "npm install",
+    "test": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[\u001b[D\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+  },
+  "author": "carina",
+  "license": "ISC",
+  "dependencies": {
+    "http-status-codes": "^2.1.4",
+    "readline-sync": "^1.4.10"
+  }
+}
